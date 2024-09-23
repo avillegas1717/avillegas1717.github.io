@@ -50,7 +50,7 @@ function App() {
                   <img
                     className="img"
                     alt="Group"
-                    src="https://c.animaapp.com/cXb6EWys/img/group-1-2@2x.png"
+                    src="avillegas1717-react/src/AliciaV.jpg"
                   />
                 </div>
                 <div className="frame-4">
