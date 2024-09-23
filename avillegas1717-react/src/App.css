@@ -1,0 +1,316 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.full-page {
+  background-color: #211c24;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.full-page .div {
+  background-color: #211c24;
+  height: 2117px;
+  position: relative;
+  width: 1220px;
+}
+
+.full-page .frame {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 117px;
+  position: absolute;
+  top: 174px;
+  width: 973px;
+}
+
+.full-page .text-wrapper {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  align-self: stretch;
+  background: linear-gradient(180deg, rgb(178.6, 71.28, 244.37) 0%, rgb(71.05, 227.37, 180.48) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: "Poppins", Helvetica;
+  font-size: 120px;
+  font-weight: 400;
+  letter-spacing: -0.56px;
+  line-height: 167.5px;
+  margin-top: -1px;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.full-page .p {
+  align-self: stretch;
+  color: #f2deff;
+  font-family: "Poppins", Helvetica;
+  font-size: 80px;
+  font-weight: 400;
+  height: 235px;
+  letter-spacing: -0.33px;
+  line-height: 80px;
+  margin-top: -40px;
+  position: relative;
+}
+
+.full-page .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  gap: 30px;
+  left: 125px;
+  position: absolute;
+  top: 1079px;
+}
+
+.full-page .frame-3 {
+  align-items: flex-start;
+  background-color: #2e2733;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  padding: 40px;
+  position: relative;
+  width: 307px;
+}
+
+.full-page .group {
+  background-image: url(https://c.animaapp.com/cXb6EWys/img/ellipse-4.svg);
+  background-size: 100% 100%;
+  height: 104px;
+  position: relative;
+  width: 104px;
+}
+
+.full-page .img {
+  height: 30px;
+  left: 23px;
+  position: absolute;
+  top: 37px;
+  width: 58px;
+}
+
+.full-page .frame-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.full-page .text-wrapper-2 {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.33px;
+  line-height: 30px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.full-page .text-wrapper-3 {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.33px;
+  line-height: 24px;
+  position: relative;
+}
+
+.full-page .group-wrapper {
+  background-image: url(https://c.animaapp.com/cXb6EWys/img/ellipse-4-1.svg);
+  background-size: 100% 100%;
+  height: 104px;
+  position: relative;
+  width: 104px;
+}
+
+.full-page .img-wrapper {
+  background-image: url(https://c.animaapp.com/cXb6EWys/img/ellipse-4-2.svg);
+  background-size: 100% 100%;
+  height: 104px;
+  position: relative;
+  width: 104px;
+}
+
+.full-page .frame-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  left: 117px;
+  position: absolute;
+  top: 685px;
+  width: 396px;
+}
+
+.full-page .group-2 {
+  height: 113px;
+  position: relative;
+  width: 113px;
+}
+
+.full-page .alicia-villegas {
+  color: transparent;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.33px;
+  line-height: 30px;
+  margin-right: -6px;
+  position: relative;
+  width: 402px;
+}
+
+.full-page .span {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: -0.06px;
+}
+
+.full-page .text-wrapper-4 {
+  color: #f3deff;
+  letter-spacing: -0.06px;
+}
+
+.full-page .text-wrapper-5 {
+  color: #F3DEFF;
+  letter-spacing: -0.06px;
+}
+
+.full-page .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 585px;
+  letter-spacing: -0.33px;
+  line-height: 30px;
+  position: absolute;
+  top: 684px;
+  width: 516px;
+}
+
+.full-page .frame-6 {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  left: 381px;
+  position: absolute;
+  top: 1632px;
+}
+
+.full-page .div-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 425px;
+}
+
+.full-page .text-wrapper-7 {
+  align-self: stretch;
+  color: #f2deff;
+  font-family: "Poppins", Helvetica;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: -0.33px;
+  line-height: 80px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.full-page .vector {
+  height: 48px;
+  position: relative;
+  width: 68px;
+}
+
+.full-page .frame-7 {
+  align-items: center;
+  display: inline-flex;
+  gap: 74px;
+  left: 392px;
+  position: absolute;
+  top: 1895px;
+}
+
+.full-page .text-wrapper-8 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(178.6, 71.28, 244.37) 0%, rgb(71.05, 227.37, 180.48) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: "Poppins", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.33px;
+  line-height: 30px;
+  margin-top: -1px;
+  position: relative;
+  text-fill-color: transparent;
+  width: 159px;
+}
+
+.full-page .text-wrapper-9 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.33px;
+  line-height: 30px;
+  margin-top: -1px;
+  position: relative;
+  width: 225px;
+}
+
+.full-page .group-3 {
+  height: 20px;
+  left: 1075px;
+  position: absolute;
+  top: 77px;
+  width: 50px;
+}
+
+.full-page .line {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: 50px;
+}
+
+.full-page .line-2 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 50px;
+}
+
