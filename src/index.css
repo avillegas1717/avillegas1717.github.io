@@ -1,66 +1,184 @@
-/* Global Reset & Focus Style */
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
+/* Global styles */
 body {
-  font-family: system-ui, sans-serif;
-  background-color: #fdfdfd;
-  color: #222;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  background-color: white;
+  color: black;
 }
 
-/* Accessible Color Scheme */
-header, footer {
-  background-color: rebeccapurple;
-  color: white;
-  padding: 1rem;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Light Theme */
+body.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Dark Theme */
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+header {
   text-align: center;
+  padding: 20px;
 }
 
-header h1,
-footer p {
+h1 {
+  font-size: 3rem;
   margin: 0;
 }
 
 nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav button {
+  background-color: rebeccapurple;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: darkviolet;
+}
+
+/* Footer Section */
+.footer {
+  background-color: rebeccapurple;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+body.light .footer {
+  background-color: #e0d2f4; /* lighter purple for light mode */
+  color: #222;
+}
+
+
+/* Social Media Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
   margin-top: 0.5rem;
 }
 
-nav a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #fff;
+.social-links a {
+  color: #fff; /* You can adjust based on theme */
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
 }
 
-nav a:focus,
-nav a:hover {
-  text-decoration: underline;
-  outline: 2px solid #fff;
-  outline-offset: 4px;
+body.light .social-links a {
+  color: #333;
 }
 
-main {
-  padding: 2rem 1rem;
+.social-links a:hover {
+  color: #ffd700; /* Gold on hover or any accent */
 }
 
-/* Skip Link */
-.skip-link {
-  position: absolute;
-  top: -40px;
-  left: 0;
-  background: #000;
-  color: #fff;
-  padding: 0.5rem;
-  z-index: 100;
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 50px 0;
 }
 
-.skip-link:focus {
-  top: 0;
+.about img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rebeccapurple;
+  max-width: 300px;
+  margin: 20px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rebeccapurple;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* Projects Section */
+.projects {
+  padding: 50px 0;
+}
+
+.projects .project {
+  margin-bottom: 30px;
+}
+
+.projects img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Resume Section */
+.resume {
+  padding: 50px 0;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 0;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact input,
+.contact textarea {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: rebeccapurple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: darkviolet;
 }

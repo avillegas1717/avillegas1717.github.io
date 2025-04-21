@@ -4,7 +4,9 @@ function Header() {
       <h1>Alicia Villegas Portfolio</h1>
       <nav>
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
+        {/* <a href="#projects">Projects</a> */}
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
   );
